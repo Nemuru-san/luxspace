@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class ProductGalery extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'products_id',
+        'url',
+        'is_featured',
+    ];
 }
