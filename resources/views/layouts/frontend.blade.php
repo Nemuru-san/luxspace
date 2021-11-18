@@ -37,6 +37,9 @@
 
     @include('components.frontend.footer')
 
+
+
+
     {{-- end footer --}}
 
     <!-- START: LOAD SVG -->
